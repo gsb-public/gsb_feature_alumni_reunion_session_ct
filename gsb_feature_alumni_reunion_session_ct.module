@@ -5,3 +5,10 @@
  */
 
 include_once 'gsb_feature_alumni_reunion_session_ct.features.inc';
+
+/**
+ * Implements hook_form_FORM_ID_alter() for alumni_reunion_session node edit form.
+ */
+function gsb_feature_alumni_reunion_session_ct_form_alumni_reunion_session_node_form_alter(&$form, &$form_state) {
+  $form['title']['#title'] = 'Name';
+}
