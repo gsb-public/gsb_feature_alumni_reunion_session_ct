@@ -41,6 +41,7 @@ function gsb_feature_alumni_reunion_session_ct_field_default_field_instances() {
     'label' => 'Registration URL',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_class' => 0,

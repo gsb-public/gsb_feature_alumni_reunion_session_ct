@@ -86,7 +86,7 @@ function gsb_feature_alumni_reunion_session_ct_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'workbench_moderation_default_state_alumni_reunion_session';
-  $strongarm->value = 'published';
+  $strongarm->value = 'draft';
   $export['workbench_moderation_default_state_alumni_reunion_session'] = $strongarm;
 
   return $export;
