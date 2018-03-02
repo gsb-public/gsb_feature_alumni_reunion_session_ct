@@ -10,7 +10,7 @@
 function gsb_feature_alumni_reunion_session_ct_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-alumni_reunion_session-field_link_single'
+  // Exported field_instance: 'node-alumni_reunion_session-field_link_single'.
   $field_instances['node-alumni_reunion_session-field_link_single'] = array(
     'bundle' => 'alumni_reunion_session',
     'custom_add_another' => '',

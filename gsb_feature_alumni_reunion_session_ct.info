@@ -19,6 +19,6 @@ features[variable][] = menu_parent_alumni_reunion_session
 features[variable][] = node_options_alumni_reunion_session
 features[variable][] = node_preview_alumni_reunion_session
 features[variable][] = node_submitted_alumni_reunion_session
+features[variable][] = pathauto_node_alumni_reunion_session_pattern
 features[variable][] = workbench_access_node_type_alumni_reunion_session
 features[variable][] = workbench_moderation_default_state_alumni_reunion_session
-mtime = 1418284736

@@ -78,6 +78,13 @@ function gsb_feature_alumni_reunion_session_ct_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_node_alumni_reunion_session_pattern';
+  $strongarm->value = '';
+  $export['pathauto_node_alumni_reunion_session_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'workbench_access_node_type_alumni_reunion_session';
   $strongarm->value = 0;
   $export['workbench_access_node_type_alumni_reunion_session'] = $strongarm;
